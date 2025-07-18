@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Hayley Tymony">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>A Poor Girl's Cookbook</title>
+
+    <style>
+      body {
+        background-image: url("image/newmainbackground.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: black;
+        font-family: Arial, sans-serif;
+      }
+
+      p, li, a {
+        color: black;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+
+      .tofusalad {
+        width: 250px;
+        height: auto;
+      }
+
+      figure {
+        margin: 20px 0;
+      }
+
+      h1, h2, h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      ol, ul {
+        margin-left: 20px;
+      }
+      .rate {
+    color: darkred;
+    font-weight: bold;
+      }
+      .rating-section fieldset {
+        border: 2px solid darkred;
+      }
+      .header-banner {
+        background-image: url("image/cherrybanner.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 2rem;
+        text-align: center;
+        color: white;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="header-banner">
+  <h1>A Poor Girl's Cookbook</h1>
+    </div>
+
+    <div>
+      <h2>Tofu Salad</h2>
+      <p>
+        This recipe is adapted from "allrecipes" written by JOSIE.
+        And found on <a href="https://www.allrecipes.com/recipe/100546/japanese-tofu-salad/">https://www.allrecipes.com/recipe/100546/japanese-tofu-salad/</a>
+      </p>
+      <figure>
+        <img src="image/tofusalad.jpg" alt="sides" class="tofu">
+        <figcaption>Photo by: BethLind</figcaption>
+      </figure>
+     </div>
+
+     <p class="intro">
+       This Japanese style tofu salad recipe is a simple way of incorporating tofu into your diet. You can certainly play around with this recipe, adding whatever you like. I garnish mine with lime wedges.
+     </p>
+
+     <!-- Flexbox start -->
+     <div class="ingredients-and-rating">
+ <div class="ingredients-section">
+   <h3>Ingredients List</h3>
+   <ul>
+     <li>1 (14 ounce) package firm tofu, drained</li>
+     <li>3 tablespoons soy sauce</li>
+     <li>1 tablespoon mirin (sweetened rice wine)</li>
+     <li>1 tablespoon rice vinegar</li>
+     <li>2 teaspoons sesame oil, or to taste</li>
+     <li>2 tablespoons vegetable oil</li>
+     <li>2 cloves garlic, minced</li>
+     <li>1 teaspoon minced fresh ginger</li>
+     <li>1 large tomato, seeded and chopped</li>
+     <li>1 small red onion, thinly sliced</li>
+     <li>¼ cup chopped cilantro</li>
+     <li>1 tablespoon sesame seeds</li>
+   </ul>
+ </div>
+
+ <div class="right-column">
+  <div class="rating-section">
+    <h3 class="rate">Rate This Recipe</h3>
+    <fieldset>
+      <legend>How difficult is this recipe?</legend>
+      <input type="radio" id="easy" name="easy"> Easy
+      <input type="radio" id="med" name="easy"> Intermediate
+      <input type="radio" id="hard" name="easy"> Hard
+    </fieldset>
+    <p>&nbsp;</p>
+  </div>
+
+  <div class="conversion-section">
+    <h3>Conversion</h3>
+    <input type="text" id="tblspn" name="tblspn"> =
+    <input type="text" id="cups" name="cups">
+  </div>
+</div>
+        <!-- <h3>Equipment List</h3>
+      <ul>
+        <li>8x8 dish</li>
+        <li>Hand mixer</li>
+      </ul> -->
+    <div class="directions-and-about">
+      <div class="directions-box">
+        <h3>Directions</h3>
+        <ol>
+          <li>Place tofu between two plates. Place a heavy book on top and let sit until tofu has drained, about 1 hour, pouring out expelled liquid every 20 minutes.</li>
+          <li>Whisk together soy sauce, mirin, rice vinegar, and sesame oil in a small bowl.</li>
+          <li>Heat vegetable oil in a small pan over medium heat. Add garlic and ginger; gently stir and cook until lightly golden, 1 to 2 minutes. Stir into soy sauce mixture.</li>
+          <li>Cut pressed tofu into bite-sized pieces, then place into a bowl with tomato, onion, and cilantro. Pour in dressing and toss to coat. Garnish with sesame seeds.</li>
+        </ol>
+      </div>
+
+    <div class="about-box">
+      <h3>Hi! I'm Hayley. I'm a Potterhead and I love to bake.</h3>
+      <img src="image/hayley.jpg" alt="hayley">
+    </div>
+  </div>
+
+      <hr />
+      <p>This page was created as an academic activity only.</p>
+  </body>
+</html>
+
+<!-- Header could be a cherry blossom gif with words over it saying "Unlock your baking creativity" -->
